@@ -1,1 +1,81 @@
+<html>
 
+<head>
+  <title>My Resume</title>
+</head>
+
+<body>
+  <h1>Resume</h1>
+  <img src="sonu.jpg" alt="no image" width="100" height="100" />
+  <h3>Sunny kumar</h3>
+  <p>Interests</p>
+  <style>
+    p {
+      color: blue;
+  </style>
+  <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+  </ul>
+  <p>Skills</p>
+  <style>
+    p {
+      color: blue;
+  </style>
+  <ol>
+    <li>Web Design with HTML</li>
+    <li>Java Script</li>
+    <li>React JS</li>
+  </ol>
+  <p>Education</p>
+  <style>
+    p {
+      color: blue;
+  </style>
+  <table>
+    <table border="1" <tr>
+      <th>Education Type</th>
+      <th>Name</th>
+      <th>Website</th>
+      <th>Grade OR Precent</th>
+      <tr>
+        <td>School</td>
+        <td>V.N.H.S Chandhos</td>
+        <td><a href="https://schools.org.in/patna/10280201209/v-n-h-s-chandhos.html" target="_blank">vnhs</a></td>
+        <td>63%</td>
+      </tr>
+      <tr>
+        <td>Ug</td>
+        <td>S.S.College,Jehanabad</td>
+        <td><a href="https://www.sscollegejehanabad.org/" target="_blank">sscollege</a></td>
+        <td>68%</td>
+      </tr>
+      <tr>
+        <td>Pg</td>
+        <td>Graphic Era University</td>
+        <td><a href="https://www.geu.ac.in/" target="_blank">geu</a></td>
+        <td>Appearing</td>
+      </tr>
+      </tr>
+    </table>
+    <p>Contact</p>
+    <style>
+      p {
+        color: blue;
+    </style>
+    <table>
+      <table border="1" <tr>
+        <th>Phone</th>
+        <th>Email</th>
+        </tr>
+        <tr>
+          <td>8969055562</td>
+          <td>sunnykumar250198@gmail.com</td>
+        </tr>
+      </table>
+</body>
+
+</html>
