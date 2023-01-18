@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Resume1</title>
+  </head>
+
+  <body>
+    <h1>Resume</h1>
+    <img src="sonu.jpg" alt="no image" width="100" height="100" />
+    <div>
+      <h3>Sunny kumar</h3>
+      <style>
+        h3 {color: green;
+      </style>
+    </div>
+    <div>
+      <p>
+        I am a punctual and <span style="color: blue ;">motivated individual</span> who is able to work in a busy environment and produce high standards of work. I am an <span style="color: blue ;">excellent
+        team worker</span> and am able to take instructions from all levels and build up <span style="color: blue ;">good working relationships</span> with all colleagues. I am
+        <span style="color: blue ;">flexible, reliable and possess excellent time keeping skills</span>.I am a dedicated, organized and methodical individual. I have good interpersonal skills, am an excellent <span style="color: blue ;">team worker</span> and am keen and very
+        willing to learn and develop new skills. I am reliable and dependable and often seek new resposibilities within a wide range of employment
+        areas. I have an active and dynamic approach to work and getting things done. I am determined and decisive. I identify and develop opportunities.
+      </p>
+    </div>
+    <div> 
+     <span style="color: peru;">
+     <h2>Interests</h2>
+      <ul>
+        <li>Drawing</li>
+        <li>Photography</li>
+        <li>Design</li>
+        <li>Programming</li>
+        <li>Computer Science</li>
+      </ul>
+    </div>
+    <div <span style="color: crimson;">
+      <h2>Skills</h2>
+      <ol>
+        <li>Web Design with HTML</li>
+        <li>Java Script</li>
+        <li>React JS</li>
+      </ol>
+    </div>
+    <div <span style="color: blue;">
+      <h2>Education</h2>
+      <table>
+       <table style="color: blue" border="1"
+       <tr>
+        <th>Education Type</th>
+        <th>Name</th>
+        <th>Website</th>
+        <th>Grade OR Precent</th>
+       </tr>
+       <tr>
+         <td>School</td>
+         <td>V.N.H.S Chandhos</td>
+         <td><a href="https://schools.org.in/patna/10280201209/v-n-h-s-chandhos.html" target="_blank">vnhs</a></td>
+         <td>63%</td>
+       </tr>
+        <tr>
+         <td>Ug</td>
+         <td>S.S.College,Jehanabad</td>
+         <td><a href="https://www.sscollegejehanabad.org/" target="_blank">sscollege</a></td>
+         <td>68%</td>
+       </tr>
+       <tr>
+         <td>Pg</td>
+         <td>Graphic Era University</td>
+         <td><a href="https://www.geu.ac.in/" target="_blank">geu</a></td>
+         <td>Appearing</td>
+       </tr>
+      </table>
+     </div>
+     <div>
+       <span style="color:purple;">
+       <h2>Contact</h2>
+       <table>
+       <table style="color: purple" border="1" <tr>
+        <th>Phone</th>
+        <th>Email</th>
+        </tr>
+        <tr>
+          <td>8969055562</td>
+          <td>sunnykumar250198@gmail.com</td>
+        </tr>
+      </table>
+      </div>
+      <div>
+       <form>
+         <h2>Connect with me</h2>
+         Add Your Message here:
+         <br>
+         <textarea rows="5" cols="50"></textarea>
+         <br /><br />
+         <input type="submit" value="Submit" />
+        </form>
+      </div>
+  </body>
+</html>
