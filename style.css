@@ -1,0 +1,9 @@
+.bgcolor{
+    background-color: rgb(149, 209, 218);
+    border:solid 2px black;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+h1{
+   margin-top:0%; 
+}

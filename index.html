@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bgcolor">
+      <h1>Registration form</h1>
+      <form>
+        Enter your details below
+        <ul>
+          <li><input type="email" placeholder="your_email@gmail.com" /></li>
+          <br />
+          <li><input type="password" placeholder="password" /></li>
+        </ul>
+        <b>! Type a complex password with 8-20 characters.</b>
+        <ul>
+          <li><input type="tel" placeholder="+20 phone Number" /></li>
+        </ul>
+        <hr />
+        <b> Enter your profession:</b>
+        <ul>
+          <li>
+            <input type="radio" name="pro" />Student
+            <input type="radio" name="pro" />Teacher
+            <input type="radio" name="pro" />Developer
+          </li>
+        </ul>
+        Choose the stage if you are (Student)
+        <select name="primary">
+          <option value="primary">primary</option>
+          <option value="Secondary">Secondary</option>
+          <option value="Sr.Secondary">Sr.Secondary</option>
+          <option value="College">College</option>
+        </select>
+        <hr />
+        <ul>
+          <li>
+            Enter your date of birth. <input type="date" max="2023-01-24" />
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <textarea rows="1" cols="50" placeholder="Any notes"></textarea>
+          </li>
+        </ul>
+        <hr />
+        <input type="Submit" value="Submit" />
+        <button type="Reset" onclick="Reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
