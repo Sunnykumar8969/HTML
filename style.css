@@ -1,30 +1,44 @@
-.calendar-wrapper {
-    max-width: 280px;
-    font: 100% system-ui;
-  }
-  .calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-  }
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
-  .first-day {
-    grid-column-start: 3;
-  }
-  
-  
-  .day-name {
-    background: #eee;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  li {
-    padding: 2px;
-  }
+}
+.word {
+  height: 1rem; 
+  margin-bottom: .5rem;
+  padding: .25rem;  
+  text-align: center; 
+}
+.word1 {
+  animation: pulse 10s infinite;
+  width: 7rem;
+}
+
+@keyframes pulse {
+0% {
+    background-color: green;
+      color: white;
+}
+50% {
+  background-color: blue;
+      color: white;
+}	
+100% {
+  background-color: rgb(226, 36, 36);
+      color: white;
+}
+}
+
+.word1:after {
+content: "";
+animation: spin 10s infinite;
+}
+
+@keyframes spin {
+0% { content:"LIFESTYLE"; width: '100%'; }
+50% { content:"WORK"; }
+100% { content:"EVERYTHING"; }
+}
