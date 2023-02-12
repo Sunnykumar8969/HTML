@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedin page assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!--for logo and search bar-->
+      <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search"
+        </div>
+      </div>
+      <!--for menu links-->
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="images/home.png" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="images/jobs.png" /><span>Jobs</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" /><span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/notification.png" /><span>Notification</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img src="images/sonu.jpg" class="nav-profile-img" />
+          <a href="#"
+            ><img src="images/premium.png" />Try Premium free for 1 month</a
+          >
+        </div>
+        <!--<img src="images/user-1.png" class="nav-profile-img" />-->
+      </div>
+    </nav>
+    <!-- --------------- navbar close--------------- -->
+
+    <div class="container">
+      <!-- -------------left-sidebar--------------- -->
+      <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img src="images/cover-pic.png" width="100%" />
+          <div class="sidebar-profile-info">
+            <img src="images/sonu.jpg" />
+            <h1>Sunny Kumar</h1>
+            <h3>Student at Graphic Era University</h3>
+            <ul>
+              <li>Your profile views<span>52</span></li>
+              <li>Your post views<span>502</span></li>
+              <li>Your connections <span>224</span></li>
+            </ul>
+          </div>
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="images/items.png" />My Items</a>
+          </div>
+        </div>
+
+        <div class="sidebar-activity">
+          <h3>Recent</h3>
+          <a href="#"><img src="images/recent.png" /> Web Development </a>
+          <a href="#"><img src="images/recent.png" /> User Interface </a>
+          <a href="#"><img src="images/recent.png" /> Online Learning </a>
+          <a href="#"><img src="images/recent.png" /> Learn Online </a>
+          <a href="#"><img src="images/recent.png" /> Code Better </a>
+          <a href="#"><img src="images/recent.png" /> Group learning </a>
+          <h3>GROUPS</h3>
+          <a href="#"><img src="images/group.png" /> Web Development </a>
+          <a href="#"><img src="images/group.png" /> User Interface </a>
+          <a href="#"><img src="images/group.png" /> Online Learning</a>
+          <a href="#"><img src="images/group.png" /> Learn Coding Online </a>
+          <h3>HASTAG</h3>
+          <a href="#"><img src="images/hashtag.png" /> Web Design Group </a>
+          <a href="#"><img src="images/hashtag.png" /> Web Design Group </a>
+          <a href="#"><img src="images/hashtag.png" /> Web Design Group </a>
+          <div class="discover-more-link">
+            <a href="#"> Discover more</a>
+          </div>
+        </div>
+      </div>
+      <!---------- Main-content---------------->
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="images/sonu.jpg" />
+            <textarea rows="2" placeholder="Write a post"></textarea>
+          </div>
+          <div class="create-post-links">
+            <li><img src="images/photo.png" />photo</li>
+            <li><img src="images/video.png" />Video</li>
+            <li><img src="images/event.png" />Event</li>
+            <li>Post</li>
+          </div>
+        </div>
+        <div class="sortby">
+          <hr />
+          <p>
+            Sort by: <span>top <img src="images/down-arrow.png" /></span>
+          </p>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-3.png" />
+            <div>
+              <h1>Benjamin Leo</h1>
+              <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            The success of every websites depends on search engine optimization
+          </p>
+          <img src="images/post-image-1.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Abhinav Mishra and 75 others</span>
+            </div>
+            <div>
+              <span> 22 comments &middot; 40 shares </span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-2.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>send</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------Right-Sidebar----------->
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <img src="images/more.png" class="info-icon" />
+          <h3>Trending News</h3>
+          <a href="#"> Careers growing horizontly</a>
+          <span>19h ago&middot;1,534 readers</span>
+
+          <a href="#">Less work visa for US</a>
+          <span>18h ago&middot;10,934 readers</span>
+
+          <a href="#" class="read-more-link">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+          <small>Ad</small>
+          <p>Master the 5 principle of web design</p>
+          <div>
+            <img src="images/user-1.png" />
+            <img src="images/mi-logo.png" />
+          </div>
+          <b>Brand and demand in Xiaomi</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+      </div>
+      <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessiblity</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">advertising</a>
+        <a href="#">More</a>
+        <div class="copyright-msg">
+          <img src="images/logo.png" />
+          <p>Linkedup &#169; 2023. All right reserved</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+/*   ------ CSS FIle------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fef2f5;
+    color: #5f5f5f;
+}
+a{
+    text-decoration: none;   /*it will remove underline from the link*/
+    color:#5f5f5f ;      /*color for all the links*/
+}
+ .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 6px 6%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1) ;
+ }
+ .logo img{
+    width: 30px;
+    margin-right: 15px;
+    display: block;
+ }
+ .navbar-center ul li{
+    display: inline-block;
+    list-style: none;
+ }
+ .navbar-center ul li a{
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px;
+    position: relative;
+ }
+ /*for icons image*/
+ .navbar-center ul li a img{
+    width: 30px;
+ }
+   .navbar-center ul li a ::after{
+      content: '';
+      width:0%;
+      height: 2px;
+      background: #045be6;
+      position: absolute;
+      bottom: -15px;
+      transition: width 0.3s;
+   }
+   .navbar-center ul li a :hover::after,
+   .navbar-center ul li a.active-link::after
+    {
+      width: 100%;
+   }
+.nav-profile-img{
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+ .online{
+   position: relative;
+ }
+ .online::after{
+   content: '';
+   width: 7px;
+   height: 7px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   right: 0px;
+   top: 0px;
+   background: #41db51;
+   position: absolute;
+ }
+  .search-box{
+   background: #fef2f5;
+   width: 250px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+  }
+  /*for align the logo*/
+  .navbar-left{
+   display: flex;
+   align-items: center;
+  }
+  .search-box img{
+   width: 14px;
+  }
+  .search-box input{
+   width: 100%;
+   background: transparent;
+   padding: 8px;
+   outline: none;
+   border: 0;
+  }
+ /* ------ navbar end--------*/
+
+ .container{
+   padding: 20px 6%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+/* --------------left-sidebar-----------*/
+ .left-sidebar{
+   flex-basis: 25%;
+   align-self: flex-start;
+ }
+  .sidebar-profile-box{
+   background: #fff;
+  }
+  .sidebar-profile-info{
+   padding: 0 25px;
+  }
+  .sidebar-profile-info img{
+   width: 80px;
+   border-radius: 50%;
+   background: #fff;
+   padding: 4px;
+   margin-top: -45px;
+  }
+  .sidebar-profile-info h1{
+   font-size: 20px;
+   font-weight: 600;
+   color: #222;
+
+  }
+   .sidebar-profile-info h3{
+      font-size: 14px;
+      font-weight: 500;
+      color: #777;
+   }
+   .sidebar-profile-info ul{
+      list-style: none;
+      margin: 20px 0;
+   }
+   .sidebar-profile-info li{
+      width: 100%;
+      margin: 5px 0;
+      font-size: 13px;
+   }
+   .sidebar-profile-info ul li span{
+      float: right;
+      color: #045be6;
+
+   }
+   .sidebar-profile-link{
+      display: flex;
+      align-items:center;
+      border-top: 1px solid #ccc;
+
+   }
+   .sidebar-profile-link a{
+      flex-basis: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 0;
+      font-size: 13px;
+      border-left: 1px solid #ccc;
+   }
+   .sidebar-profile-link a:first-child{
+      border-left: 0;
+   }
+   .sidebar-profile-link a img{
+      width: 20px;
+      margin-right: 10px;
+   }
+.sidebar-activity{
+   background: #fff;
+   padding: 5px 25px;
+   margin: 12px 0;
+}
+.sidebar-activity h3{
+   color: #777;
+   font-size: 14px;
+   font-weight: 500;
+   margin: 20px 0 10px;
+
+}
+.sidebar-activity a{
+   display: flex;
+   align-items: center;
+   font-size: 12px ;
+   font-weight: 500;
+   color: #888;
+   margin: 3px 0;
+}
+
+.sidebar-activity a img{
+   width: 20px;
+   margin-right: 10px;
+}
+.discover-more-link{
+   border-top: 1px solid #ccc;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: -25px;
+   margin-right: -25px;
+
+}
+ .discover-more-link a{
+   color: #045be6;
+   display: inline-block;
+   margin: 10px 0;
+ }
+
+ /*----------right-sidebar---------*/
+  .right-sidebar{
+   flex-basis: 25%;
+   align-self: flex-start;
+  }
+  .sidebar-news{
+   background: #fff;
+   padding: 10px 25px;
+  }
+  .info-icon{
+   width: 15px;
+   float: right;
+   margin-top: 15px;
+  }
+  .sidebar-news h3{
+   font-size: 18px;
+   font-weight: 600;
+   color: #333;
+   margin: 10px 0 30px;
+  }
+   .sidebar-news a{
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: -5px;
+   }
+   .sidebar-news span{
+      font-size: 12px;
+   }
+
+    .sidebar-news .read-more-link{
+      color: #045be6;
+      font-weight: 500;
+      margin: 20px 0 10px;
+
+    }
+    .sidebar-ad{
+      background: #fff;
+      padding: 15px 25px;
+      text-align: center;
+      margin: 12px 0;
+      font-size: 12px;
+    }
+    .sidebar-ad img{
+      width: 60px;
+      border-radius: 50%;
+      margin: 4px;
+    }
+    .sidebar-ad small{
+      float: right;
+      font-weight: 500;
+      }
+   .sidebar-ad p{
+      margin-top: 30px;
+      margin-bottom: 10px;
+   }
+      .ad-link{
+         display: inline-block;
+         border: 1px solid #045be6;
+         border-radius: 30px;
+         color: #045be6;
+         font-weight: 500;
+         margin: 20px auto 10px;
+      }
+.sidebar-useful-links{
+   padding: 15px 25px;
+   text-align: center;
+
+}
+.siddebar-useful-links a{
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+}
+.copyright-msg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 12px;
+   margin-top: 10px;
+   font-weight: 500;
+
+}
+.copyright-msg img{
+   width: 18px;
+   margin-right: 4px;
+}
+
+   /*-------------main-content--------*/
+  .main-content{
+   flex-basis: 47%;
+  }
+  .create-post{
+   background: #fff;
+
+  }
+  .create-post-input{
+   padding: 20px 25px 10px;
+   display: flex;
+   align-items: flex-start;
+  }
+  .create-post-input img{
+   width: 35px;
+   border-radius: 50%;
+   margin-right: 10px;
+  }
+  .create-post-input textarea{
+   width: 100%;
+   border: 0;
+   outline: 0;
+   resize: none;
+   background: transparent;
+   margin-top: 8px;
+  }
+  ::placeholder{
+   font-weight: 500;
+
+  }
+  .create-post-links{
+   display: flex;
+   align-items: flex-start;
+  }
+  .create-post-links li{
+   list-style: none;
+   border-top: 1px solid #ccc ;
+   border-right: 1px solid #ccc ;
+   flex-basis: 25%;
+   height: 40px;
+   font-size: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+  }
+  .create-post-links li img{
+   width: 15px;
+   margin-right: 5px;
+  }
+  .create-post-links li:last-child{
+   background: #045be6;
+   color: #fff;
+   border-top: 0;
+   border-right: 0;
+  }
+  .sortby{
+   display: flex;
+   align-items: center;
+   margin: 10px 0;
+
+  }
+  .sortby hr{
+   flex: 1;
+   border: 0;
+   height: 1px;
+   background: #ccc;
+  }
+.sortby p{
+   font-size: 13px;
+   padding-left: 5px;
+
+}
+.sortby p span{
+   font-weight: 600;
+   cursor: pointer;
+}
+.sortby p span img{
+   width: 12px;
+   margin-left: 3px;
+}
+.post{
+   background: #fff;
+   padding: 20px 25px 5px;
+   margin: 5px 0 15px;
+}
+.post-author{
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 20px;
+}
+.post-author img{
+   width: 35px;
+   border-radius: 50%;
+   margin-right: 10px;
+   margin-top: 5px;
+
+}
+.post-author h1{
+   font-size: 18px;
+   font-weight: 600;
+   color: #333;
+
+}
+.post-author small{
+   display: block;
+   margin-bottom: -2px;
+}
+.post p{
+   font-size: 14px;
+   margin-bottom: 15px;
+}
+.post-stats{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 12px;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 6px;
+}
+.post-stats div{
+   display: flex;
+   align-items: center;
+}
+.post-stats img{
+   width: 15px;
+   margin-right: -5px;
+}
+.liked-users{
+   margin-left: 10px;
+}
+.post-activity{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   font-size: 14px;
+   font-weight: 500;
+
+}
+.post-activity div{
+   display: flex;
+   align-items: center;
+
+}
+.post-activity-user-icon{
+   width: 22px;
+   border-radius: 50;
+
+}
+.post-activity-arrow-icon{
+   width: 12px;
+   margin-left: 5px;
+}
+.post-activity-link img{
+   width: 18px;
+   margin-right: 8px;
+}
+
